@@ -1,0 +1,19 @@
+title: overall geometry
+description: >-
+  That geometry bypass analytic and to be allover,keeping and standing for.Thus
+  the big could be small such easy.Where the two geometries meet and go for long
+  integers.
+template:
+  repo: overall-geometry-template
+  name: overall-geometry
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
